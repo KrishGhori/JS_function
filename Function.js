@@ -20,3 +20,19 @@ let obj = {
         console.log("hello, hanji numste!");
     }
 };
+
+console.log(obj);
+obj.call();
+// console.log(typeof(obj));
+
+//Array
+let brr = new Array(19,'K','R',19);
+console.log(brr);
+
+brr.push('hii');
+console.log(brr);
+
+brr.shift(); //left frist element is remove
+console.log(brr);
+brr.unshift("one"); // add the etement left end side
+console.log(brr);
