@@ -36,3 +36,11 @@ brr.shift(); //left frist element is remove
 console.log(brr);
 brr.unshift("one"); // add the etement left end side
 console.log(brr);
+
+console.log(brr.slice(1,3)); //pickup this index value
+
+brr.splice(0,2,'h'); //0 to 2 remove and left side add 'h'
+console.log(brr);
+
+let arra = [10,20,30,40];
+console.log(arra);
