@@ -187,3 +187,20 @@ catch(error){
 finally{
     // every time run
 }
+
+
+// coustom error useing throw
+// try{
+//     console.log(abc);
+// }
+// catch(err){
+//      throw new Error ("diclare the abc: ");
+// }
+
+
+//new example
+
+// let errorcode = 100 ;
+// if(errorcode==100){
+//     throw new Error ("invalid jsun");
+// }
