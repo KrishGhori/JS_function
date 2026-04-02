@@ -71,3 +71,33 @@ console.log("arra length is :",length);
 arra.forEach((Value,index) => {
       console.log("value is :",Value,"index is :",index);
 });
+
+
+//for in
+for(let key in obj){
+    console.log(key,"",obj[key]);
+}
+
+//for of
+for(let value of arra){
+    console.log("vlaue",value);
+}
+
+
+const br = [
+    function(a,b){
+        return a+b;
+    },
+    function(a,b){
+        return a-b;
+    },
+    function(a,b){
+        return a*b;
+    },
+    function(a,b){
+        return a/b;
+    }
+];
+let rb = br[2];
+let so = rb(6,3);
+console.log(so);
