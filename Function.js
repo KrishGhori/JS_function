@@ -129,3 +129,17 @@ class human{
         this.#wt = val;
     }
 }
+
+
+let objs = new human("new age is:"+20,"   new ht is:"+173);
+console.log(objs.age,objs.ht);
+
+function hellomyname (fname,lname = fname.toUpperCase()){
+    console.log("hello my name is:"+fname,lname);
+}
+hellomyname("rishva krishbhai ghori");
+
+
+console.log(Math.PI);
+console.log(Math.max(60,40,30,70,20,90));
+console.log(Math.min(60,40,30,70,20,90));
