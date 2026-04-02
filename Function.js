@@ -44,3 +44,30 @@ console.log(brr);
 
 let arra = [10,20,30,40];
 console.log(arra);
+
+
+arra.map((Number,index) => {
+    console.log(Number);
+    console.log(index);
+});
+
+let anss = arra.reduce((acc,curr) => {
+    return acc + curr ;
+},0);
+console.log(anss);
+
+let RR = [8,9,5,6,4,3,1,4,6,0];
+RR.sort();
+console.log(RR);
+RR.reverse();
+console.log(RR);
+
+console.log(RR.indexOf(8));
+
+let length = arra.length;
+console.log("arra length is :",length);
+
+//for each
+arra.forEach((Value,index) => {
+      console.log("value is :",Value,"index is :",index);
+});
