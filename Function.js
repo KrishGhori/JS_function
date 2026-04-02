@@ -175,3 +175,15 @@ let det = Object.assign({},srcs);
 srcs.age=90;
 console.log("useing assign",srcs);
 console.log("useing assign",det);
+
+
+//error hendling 
+try{
+    //if there is any error then that's not run and goto catch
+}
+catch(error){
+       // handel the error
+}
+finally{
+    // every time run
+}
