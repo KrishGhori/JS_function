@@ -101,3 +101,31 @@ const br = [
 let rb = br[2];
 let so = rb(6,3);
 console.log(so);
+
+
+class human{
+
+    //properties
+    age=19; //public
+    #wt=58; //privte
+    ht=170;
+
+    constructor(newage,newht){
+        this.age = newage;
+        this.ht = newht;
+    }
+
+    //behaviour
+    walking(){
+        console.log("i am walking with rishva");
+    }
+    running(){
+        console.log("i am running with vanshi");
+    }
+    get fathchwt(){   //get is ues for a fatch the privte properties
+        return  this.#wt;
+    }
+    set modifywt(val){  //set is ues for a modify the privte properties
+        this.#wt = val;
+    }
+}
