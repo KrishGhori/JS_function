@@ -216,3 +216,9 @@ function changeText(event){
 
  let fpara2 = document.getElementById('fpara2');
 fpara2.addEventListener('click', changeText);
+
+// let anchorElement = document.getElementById('fanchor');
+// anchorElement.addEventListener('click', function(event){
+//      event.preventDefault();
+//      anchorElement.textContent = "ohk"
+// });
