@@ -158,3 +158,20 @@ let src ={
     ht :170
 };
 let dest = {...src}; // cloning 
+
+
+
+src.age=90;
+console.log(src);
+console.log(dest);
+
+//assign
+let srcs ={
+    age : 12,
+    wt : 56,
+    ht :170
+};
+let det = Object.assign({},srcs);
+srcs.age=90;
+console.log("useing assign",srcs);
+console.log("useing assign",det);
