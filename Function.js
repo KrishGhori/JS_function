@@ -204,3 +204,15 @@ finally{
 // if(errorcode==100){
 //     throw new Error ("invalid jsun");
 // }
+
+// syntex = <event-target>.addEventListener('event-type',function-action)
+
+
+function changeText(event){
+    console.log(event);
+    let fpara2 = document.getElementById('fpara2');
+    fpara2.textContent = "hello ji"
+}
+
+ let fpara2 = document.getElementById('fpara2');
+fpara2.addEventListener('click', changeText);
