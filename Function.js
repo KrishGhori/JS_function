@@ -143,3 +143,18 @@ hellomyname("rishva krishbhai ghori");
 console.log(Math.PI);
 console.log(Math.max(60,40,30,70,20,90));
 console.log(Math.min(60,40,30,70,20,90));
+
+let date = new Date();
+console.log(date);
+
+obj.colour = "white";
+console.log(obj);
+
+
+//cloning
+let src ={
+    age : 12,
+    wt : 56,
+    ht :170
+};
+let dest = {...src}; // cloning 
